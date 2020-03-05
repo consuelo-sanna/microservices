@@ -4,6 +4,8 @@
     "description": "listing services",
     "main": "index.js",
     "scripts": {
+        "db:migrate": "sequelize db:migrate",
+        "db:migrate:undo": "sequelize db:migrate:undo",
         "start": "babel-watch -L src/index.js"
     },
     "author": "Consuelo Sanna",
@@ -15,6 +17,9 @@
         "@babel/core": "^7.8.7",
         "@babel/polyfill": "^7.8.7",
         "@babel/preset-env": "^7.8.7",
-        "babel-plugin-module-resolver": "^4.0.0"
+        "babel-plugin-module-resolver": "^4.0.0",
+        "mysql2": "^2.1.0",
+        "sequelize": "^5.21.5",
+        "sequelize-cli": "^5.5.1"
     }
 }
