@@ -1,0 +1,9 @@
+da docker compose puoi vedere che hai 2 servizi. Per ogni servizio hai un DB
+
+crea file sequelize.rc, dove spieghi path e dove deve cercare i file per la migrazione
+
+dopo aver inserito il DB sul file compose, crea lo schema per la tabella, e la cartella migrate. dopo puoi fare il migrate
+
+per fare il migrate:  devi entrare sulla bash, quindi fai docker ps, trovi l id dell elemento che è in funzione e entri nella bash
+
+root@a5c6b9113fef:/opt/app# node_modules/.bin/sequelize db:migrate
