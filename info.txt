@@ -7,3 +7,5 @@ dopo aver inserito il DB sul file compose, crea lo schema per la tabella, e la c
 per fare il migrate:  devi entrare sulla bash, quindi fai docker ps, trovi l id dell elemento che è in funzione e entri nella bash
 
 root@a5c6b9113fef:/opt/app# node_modules/.bin/sequelize db:migrate
+
+(per vedere i db puoi usare sequel Pro, ti connetti e selezioni DB)
