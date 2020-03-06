@@ -9,3 +9,6 @@ per fare il migrate:  devi entrare sulla bash, quindi fai docker ps, trovi l id 
 root@a5c6b9113fef:/opt/app# node_modules/.bin/sequelize db:migrate
 
 (per vedere i db puoi usare sequel Pro, ti connetti e selezioni DB)
+
+Crea il model del DB e le route per poter fare la get e eventuali altre modifiche
+
