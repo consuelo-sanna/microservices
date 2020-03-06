@@ -22,11 +22,11 @@ module.exports.up = (queryInterface, DataTypes) => {
                 allowNull: false,
                 type: DataTypes.DATE,
             },
-            updateAt: {
+            updatedAt: {
                 allowNull: false,
                 type: DataTypes.DATE,
             },
-            deletedAt: {
+            deleteAt: {
                 allowNull: true,
                 type: DataTypes.DATE,
             },
